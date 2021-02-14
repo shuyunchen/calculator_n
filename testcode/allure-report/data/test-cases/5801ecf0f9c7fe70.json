@@ -1,0 +1,107 @@
+{
+  "uid" : "5801ecf0f9c7fe70",
+  "name" : "test_sub[0减去数字]",
+  "fullName" : "testcode.test_calc_new.Test_Calculator#test_sub",
+  "historyId" : "803d978da98da9c996777643801cf0c1",
+  "time" : {
+    "start" : 1613319483925,
+    "stop" : 1613319483925,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_sub_datas",
+    "time" : {
+      "start" : 1613319483924,
+      "stop" : 1613319483924,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1613319483775,
+      "stop" : 1613319483775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_sub_datas::0",
+    "time" : {
+      "start" : 1613319483925,
+      "stop" : 1613319483926,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcode"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Calculator"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-K9V7IUFS"
+  }, {
+    "name" : "thread",
+    "value" : "3596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcode.test_calc_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_sub_datas",
+    "value" : "[0, 1, -1]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "5801ecf0f9c7fe70.json",
+  "parameterValues" : [ "[0, 1, -1]" ]
+}
